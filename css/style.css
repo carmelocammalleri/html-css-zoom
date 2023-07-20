@@ -31,15 +31,17 @@ body{
 .head{
   height: 50px;
   justify-content: end;
-  align-items: center;
+  padding: 5px;
 }
 
 .select{
   padding: 5px;
-  background-color: #4A4A4A;
+  background-color:#4B4B4B ;
+  height: 20px;
   margin-right: 5px;
   border-radius: 5px;
   font-size: .6rem;
+  cursor: pointer;
 }
 
 .select.view i{

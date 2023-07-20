@@ -81,6 +81,10 @@ a{
   padding-top: 10px;
 }
 
+.botton.green i{
+  color: #4BC800;
+}
+
 .btn{
   align-items: center;
   height: 100%;
@@ -88,4 +92,20 @@ a{
 
 .btn.zoom{
   flex-wrap: wrap;
+}
+
+.close{
+  line-height: 100px;
+  text-align: center;
+}
+
+.btn.exit{
+  background-color: #4A4A4A;
+}
+
+.btn.exit .close{
+  color: red;
+  height: 100%;
+  margin: 0 20px;
+  font-size: 1rem;
 }

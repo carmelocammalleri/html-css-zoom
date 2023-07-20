@@ -73,10 +73,14 @@ img{
 
 .label{
   position: absolute;
-  bottom: 1px;
+  bottom: 0;
   left:0;
   background-color: #22222294;
-  padding: 15px;
+  padding: 3px;
+}
+
+.card .label span{
+  font-size: .8rem;
 }
 
 /* footer */

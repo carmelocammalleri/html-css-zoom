@@ -61,6 +61,29 @@ a{
   overflow: auto;
 }
 
+.card{
+  position: relative;
+}
+
+
+.label{
+  position: absolute;
+  bottom: 1px;
+  left:0;
+  background-color: #22222294;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 .foot{

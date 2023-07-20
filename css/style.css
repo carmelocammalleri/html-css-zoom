@@ -12,12 +12,6 @@ body{
   height: 100vh;
 }
 
-.container{
-  max-width: 1400px;
-  width: 90%;
-  margin: 0 auto;
-}
-
 .flex{
   display: flex;
 }
@@ -84,16 +78,6 @@ img{
   background-color: #22222294;
   padding: 15px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 

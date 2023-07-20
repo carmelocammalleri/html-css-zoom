@@ -34,6 +34,18 @@ body{
   align-items: center;
 }
 
+.select{
+  padding: 5px;
+  background-color: #4A4A4A;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: .6rem;
+}
+
+.select.view i{
+  margin-right: 5px;
+}
+
 /* main */
 
 .web-cam{

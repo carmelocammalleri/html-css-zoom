@@ -60,6 +60,7 @@ a{
 .web-cam{
   height: calc(100vh - 130px);
   overflow: auto;
+  flex-wrap: wrap;
 }
 
 .card{
@@ -106,7 +107,8 @@ img{
   margin: 0 10px; 
 }
 
-.botton i,span{
+.foot .btn .botton i,
+.foot .btn .botton span{
   display: block;
 }
 

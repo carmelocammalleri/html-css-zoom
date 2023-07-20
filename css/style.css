@@ -22,3 +22,27 @@ body{
   display: flex;
 }
 
+.debug{
+  border: 1px solid white;
+}
+
+/* header */
+
+.head{
+  height: 50px;
+  justify-content: end;
+  align-items: center;
+}
+
+/* main */
+
+.web-cam{
+  height: calc(100vh - 150px);
+  overflow: auto;
+}
+
+/* footer */
+
+.foot{
+  height: 100px;
+}

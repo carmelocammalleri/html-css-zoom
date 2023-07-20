@@ -29,7 +29,7 @@ body{
 a{
   text-decoration: none;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
  
 /* header */
@@ -57,19 +57,22 @@ a{
 /* main */
 
 .web-cam{
-  height: calc(100vh - 150px);
+  height: calc(100vh - 130px);
   overflow: auto;
 }
 
 /* footer */
 
 .foot{
-  height: 100px;
+  height: 80px;
+  justify-content: space-between;
+  background-color: #222222;
+  min-width: 800px;
 }
 
 .botton{
   text-align: center;
-  margin-right: 15px; 
+  margin: 0 10px; 
 }
 
 .botton i,span{
@@ -77,7 +80,7 @@ a{
 }
 
 .botton span{
-  font-size: 1rem;
+  font-size: .6rem;
   padding-top: 10px;
 }
 
@@ -95,7 +98,7 @@ a{
 }
 
 .close{
-  line-height: 100px;
+  line-height: 80px;
   text-align: center;
 }
 
@@ -107,5 +110,5 @@ a{
   color: red;
   height: 100%;
   margin: 0 20px;
-  font-size: 1rem;
+  font-size: .8rem;
 }

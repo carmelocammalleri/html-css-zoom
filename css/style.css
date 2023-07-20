@@ -26,6 +26,12 @@ body{
   border: 1px solid white;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+ 
 /* header */
 
 .head{
@@ -59,4 +65,12 @@ body{
 
 .foot{
   height: 100px;
+}
+
+.mute i,span{
+  display: block;
+}
+
+.mute{
+  text-align: center;
 }

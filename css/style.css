@@ -23,7 +23,7 @@ body{
 a{
   text-decoration: none;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
  
 /* header */
@@ -52,7 +52,7 @@ a{
 
 
 .web-cam{
-  height: calc(100vh - 130px);
+  height: calc(100vh - 110px);
   overflow: auto;
   flex-wrap: wrap;
   justify-content: center;
@@ -86,7 +86,7 @@ img{
 /* footer */
 
 .foot{
-  height: 80px;
+  height: 60px;
   justify-content: space-between;
   background-color: #222222;
   min-width: 800px;
@@ -94,7 +94,12 @@ img{
 
 .botton{
   text-align: center;
-  margin: 0 10px; 
+  margin: 0 15px; 
+}
+
+.botton.arrow i{
+  font-size: 0.6rem;
+  margin 0 -3px;
 }
 
 .foot .btn .botton i,
@@ -103,7 +108,7 @@ img{
 }
 
 .botton span{
-  font-size: .6rem;
+  font-size: .5rem;
   padding-top: 10px;
 }
 
@@ -121,7 +126,7 @@ img{
 }
 
 .close{
-  line-height: 80px;
+  line-height: 60px;
   text-align: center;
 }
 
